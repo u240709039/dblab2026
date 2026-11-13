@@ -1,3 +1,5 @@
+use movie_db;
+
 # 1. Show the Quentin Tarantino films which have more than 500000 votes and produced before 2000.
 
 select movies.title, directors.director_name, movies.votes, movies.year
